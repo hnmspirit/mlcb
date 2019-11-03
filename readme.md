@@ -1,6 +1,6 @@
 # MACHINE LEARNING CO BAN
 
-## a
+## part a
 0. linreg
     * [https://machinelearningcoban.com/2016/12/28/linearregression/](https://machinelearningcoban.com/2016/12/28/linearregression/)
 1. opt
@@ -15,12 +15,17 @@
     * [https://machinelearningcoban.com/2017/01/21/perceptron/](https://machinelearningcoban.com/2017/01/21/perceptron/)
 
 5. logreg
+    * [https://machinelearningcoban.com/2017/01/27/logisticregression/](https://machinelearningcoban.com/2017/01/27/logisticregression/)
 6. softmax
+    * [https://machinelearningcoban.com/2017/02/17/softmax/](https://machinelearningcoban.com/2017/02/17/softmax/)
 7. mlp
+    * [https://machinelearningcoban.com/2017/02/24/mlp/](https://machinelearningcoban.com/2017/02/24/mlp/)
 8. overfit
+    * [https://machinelearningcoban.com/2017/03/04/overfitting/](https://machinelearningcoban.com/2017/03/04/overfitting/)
 9. cvx
+    * [https://machinelearningcoban.com/2017/03/12/convexity/](https://machinelearningcoban.com/2017/03/12/convexity/)
 
-## b
+## part b
 0. svm
 1. content-based recsys
 2. neighborhood-based collab
@@ -33,7 +38,7 @@
 8. map mle
 9. nbc
 
-## c
+## part c
 1. id3
 2. conv2d
 3. driving
