@@ -46,5 +46,5 @@ plot(ax[1,0], X1, np.array([0,1]), 'NOT')
 fill_xor(ax[1,1], 0.5 - yv, 1.5 - yv, yv)
 plot(ax[1,1], X0, np.array([1,0,0,1]), 'XOR')
 
-fig.savefig('xor.jpg', dpi=100)
+# fig.savefig('xor.jpg', dpi=100)
 plt.show()
