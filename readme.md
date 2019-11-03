@@ -25,7 +25,7 @@
     * [mlcb.com/2017/03/12/convexity](https://machinelearningcoban.com/2017/03/12/convexity/)
 
 ## part b
-0. svm
+0. support vector machine
     * [mlcb.com/2017/04/09/smv](https://machinelearningcoban.com/2017/04/09/smv/)
     * [mlcb.com/2017/04/13/softmarginsmv](https://machinelearningcoban.com/2017/04/13/softmarginsmv/)
     * [mlcb.com/2017/04/22/kernelsmv](https://machinelearningcoban.com/2017/04/22/kernelsmv/)
@@ -39,16 +39,16 @@
 4. singular value decomposition
     * [mlcb.com/2017/06/07/svd](https://machinelearningcoban.com/2017/06/07/svd/)
 
-5. pca
+5. principal component analysis
     * [mlcb.com/2017/06/15/pca](https://machinelearningcoban.com/2017/06/15/pca/)
     * [mlcb.com/2017/06/21/pca2](https://machinelearningcoban.com/2017/06/21/pca2/)
-6. lda
+6. linear discriminant analysis
     * [mlcb.com/2017/06/30/lda](https://machinelearningcoban.com/2017/06/30/lda/)
-7. prob
+7. probability
     * [mlcb.com/2017/07/09/prob](https://machinelearningcoban.com/2017/07/09/prob/)
-8. map mle
+8. maximum a posteriori - maximum likelihood estimation
     * [mlcb.com/2017/07/17/mlemap](https://machinelearningcoban.com/2017/07/17/mlemap/)
-9. nbc
+9. naive bayes classifier
     * [mlcb.com/2017/08/08/nbc](https://machinelearningcoban.com/2017/08/08/nbc/)
 
 ## part c
