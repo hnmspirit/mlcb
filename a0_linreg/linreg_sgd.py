@@ -2,11 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 np.random.seed(21)
 
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation as fanim
-np.random.seed(21)
-
 
 N = 520
 X = np.random.rand(N, 1)
@@ -24,12 +19,14 @@ def mgrad(w, Xi, yi): return (Xi.T.dot(Xi.dot(w) - yi)) / Xi.shape[0]
 
 def gd(w_init, lr=0.1, epochs=1000, eps=1e-3):
     w = w_init.copy()
-    for it in range(epochs):
-        gw = grad(w)
-        w -= lr * gw
-        if np.linalg.norm(gw) / gw.size < eps:
+    w_check = w.copy()
+    for epoch in range(epochs):
+        g = grad(w)
+        w -= lr * g
+        if np.linalg.norm(w - w_check) / w.size < eps:
             break
-    return w, it
+        w_check = w.copy()
+    return w, epoch
 
 
 def sgd(w_init, lr=0.1, epochs=10, eps=1e-3, it_check=10):
@@ -43,7 +40,7 @@ def sgd(w_init, lr=0.1, epochs=10, eps=1e-3, it_check=10):
             xi = X1[j:j+1]
             yi = y[j:j+1]
             g = sgrad(w, xi, yi)
-            w = w - lr * g
+            w -= lr * g
             if it % it_check == 0:
                 if np.linalg.norm(w - w_check) / w.size < eps:
                     return w, it
@@ -63,7 +60,7 @@ def mgd(w_init, lr=0.1, epochs=10, eps=1e-3, it_check=10, batch_size=20):
             Xi = X1[js]
             yi = y[js]
             g = mgrad(w, Xi, yi)
-            w = w - lr * g
+            w -= lr * g
             if it % it_check == 0:
                 if np.linalg.norm(w - w_check) / w.size < eps:
                     return w, it
@@ -71,12 +68,11 @@ def mgd(w_init, lr=0.1, epochs=10, eps=1e-3, it_check=10, batch_size=20):
     return w, it
 
 
-
 w, it = gd(w0, 0.1, epochs=1000)
-print('bgd: it=%5d, w= %.4f: %.4f' % (it+1, w[0, 0], w[1, 0]))
+print('bgd: it=%6d, w= %.4f: %.4f' % ((it+1)*N, w[0, 0], w[1, 0]))
 
 w, it = sgd(w0, 0.1, epochs=100)
-print('sgd: it=%5d, w= %.4f: %.4f' % (it+1, w[0, 0], w[1, 0]))
+print('sgd: it=%6d, w= %.4f: %.4f' % (it+1, w[0, 0], w[1, 0]))
 
-w, it = mgd(w0, 0.1, epochs=100)
-print('mgd: it=%5d, w= %.4f: %.4f' % (it+1, w[0, 0], w[1, 0]))
+w, it = mgd(w0, 0.1, epochs=100, batch_size=20)
+print('mgd: it=%6d, w= %.4f: %.4f' % ((it+1)*20, w[0, 0], w[1, 0]))

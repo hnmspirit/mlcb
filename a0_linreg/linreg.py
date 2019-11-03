@@ -24,7 +24,7 @@ print(w_lib)
 
 # xv = np.array([145, 185])
 # yv = w_lib[0] + w_lib[1]*xv
-# plt.plot(X[:, 0], y, 'r.')
-# plt.plot(xv, yv, 'm:')
+# plt.plot(X[:, 0], y, 'go')
+# plt.plot(xv, yv, 'r:')
 # plt.grid(alpha=0.5)
 # plt.show()

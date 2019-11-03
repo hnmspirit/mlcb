@@ -55,19 +55,13 @@ class OptAnim(animation.FuncAnimation):
         return self.lines + self.points
 
 
-xmin, xmax, xstep = -4.5, 4.5, .045
-ymin, ymax, ystep = -4.5, 4.5, .045
-x, y = np.meshgrid(np.arange(xmin, xmax+xstep, xstep), np.arange(ymin, ymax+ystep, ystep))
-z = func((x, y))
-zeps = 1.1e-0 # shift to show on log scale
-z += zeps
-
 minima = np.array([3., .5])
 minima_ = minima.reshape(-1, 1)
 x_init = np.array([0.9, 1.6])
 x_init_ = x_init.reshape(-1, 1)
 
 
+# paths
 methods = dict(
     vanilla  = lambda x: torch.optim.SGD(x, lr=0.01),
     momentum = lambda x: torch.optim.SGD(x, lr=0.005, momentum=0.9, nesterov=False),
@@ -85,6 +79,15 @@ for label, opt in methods.items():
     labels.append(label)
     paths.append(path[idx].T)
     print('{:9}:{:6} epoch ({:4})'.format(label, epoch, len(idx)))
+
+
+# figure
+xmin, xmax, xstep = -4.5, 4.5, .045
+ymin, ymax, ystep = -4.5, 4.5, .045
+x, y = np.meshgrid(np.arange(xmin, xmax+xstep, xstep), np.arange(ymin, ymax+ystep, ystep))
+z = func((x, y))
+zeps = 1.1e-0 # shift to show on log scale
+z += zeps
 
 logzmax = np.log(z.max() - z.min() + zeps)
 levels = np.logspace(0, logzmax//2, 35)
@@ -108,6 +111,6 @@ ax.legend()
 
 print('save anim ...')
 # anim.save('opt2d.gif', fps=fps, writer='pillow')
-anim.save('opt2d.mp4', fps=fps, writer='ffmpeg', codec='h264')
+# anim.save('opt2d.mp4', fps=fps, writer='ffmpeg', codec='h264')
 
 plt.show()
