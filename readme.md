@@ -1,45 +1,39 @@
-# machinelearningcoban.com implementations
+# MACHINE LEARNING CO BAN
 
-## Regression Algorithms
-* Linear Regression
-* Logistic Regression
-* Stepwise Regression
+## a
+* 0 linreg
+* 1 opt
+* 2 kmean
+* 3 knn
+* 4 pla
 
-## Classification Algorithms
-* Linear Classifier
-* Support Vector Machine (SVM)
-* Kernel SVM
-* Sparse Representation-based classification (SRC)
+* 5 logreg
+* 6 softmax
+* 7 mlp
+* 8 overfit
+* 9 cvx
 
-## Instance-based Algorithms
-* k-Nearest Neighbor (kNN)
-* Learning Vector Quantization (LVQ)
+## b
+* svm
+* content-based recsys
+* neighborhood-based collab
+* matrix-factorization collab
+* singular value decomposition
 
-## Regularization Algorithms
-* Ridge Regression
-* Least Absolute Shrinkage and Selection Operator (LASSO)
-* Least-Angle Regression (LARS)
+* pca
+* lda
+* prob
+* map mle
+* nbc
 
-## Bayesian Algorithms
-* Naive Bayes
-* Gaussian Naive Bayes
+## c
+* id3
+* conv2d
+* driving
+* transfer
+* rcnn
 
-## Clustering Algorithms
-* k-Means clustering
-* k-Medians
-* Expectation Maximization (EM)
+* unet
+* rnn
+* lstm
 
-## Artificial Neural Network Algorithms
-* Perceptron
-* Softmax Regression
-* Multi-layer Perceptron
-* Back-Propagation
-
-## Dimensionality Reduction Algorithms
-* Principal Component Analysis (PCA)
-* Linear Discriminant Analysis (LDA)
-
-## Ensemble Algorithms
-* Boosting
-* AdaBoost
-* Random Forest
