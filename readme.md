@@ -1,29 +1,28 @@
 # MACHINE LEARNING CO BAN
 
 ## part a
-0. linreg
-    * [https://machinelearningcoban.com/2016/12/28/linearregression/](https://machinelearningcoban.com/2016/12/28/linearregression/)
-1. opt
-    * [https://machinelearningcoban.com/2017/01/12/gradientdescent/](https://machinelearningcoban.com/2017/01/12/gradientdescent/)
-    * [https://machinelearningcoban.com/2017/01/16/gradientdescent2/](https://machinelearningcoban.com/2017/01/16/gradientdescent2/)
-2. kmean
-    * [https://machinelearningcoban.com/2017/01/01/kmeans/](https://machinelearningcoban.com/2017/01/01/kmeans/)
-    * [https://machinelearningcoban.com/2017/01/04/kmeans2/](https://machinelearningcoban.com/2017/01/04/kmeans2/)
-3. knn
-    * [https://machinelearningcoban.com/2017/01/04/kmeans2/](https://machinelearningcoban.com/2017/01/04/kmeans2/)
-4. pla
-    * [https://machinelearningcoban.com/2017/01/21/perceptron/](https://machinelearningcoban.com/2017/01/21/perceptron/)
-
-5. logreg
-    * [https://machinelearningcoban.com/2017/01/27/logisticregression/](https://machinelearningcoban.com/2017/01/27/logisticregression/)
-6. softmax
-    * [https://machinelearningcoban.com/2017/02/17/softmax/](https://machinelearningcoban.com/2017/02/17/softmax/)
-7. mlp
-    * [https://machinelearningcoban.com/2017/02/24/mlp/](https://machinelearningcoban.com/2017/02/24/mlp/)
-8. overfit
-    * [https://machinelearningcoban.com/2017/03/04/overfitting/](https://machinelearningcoban.com/2017/03/04/overfitting/)
-9. cvx
-    * [https://machinelearningcoban.com/2017/03/12/convexity/](https://machinelearningcoban.com/2017/03/12/convexity/)
+0. linear regression
+    * [mlcb.com/2016/12/28/linearregression/](https://machinelearningcoban.com/2016/12/28/linearregression/)
+1. optimization
+    * [mlcb.com/2017/01/12/gradientdescent/](https://machinelearningcoban.com/2017/01/12/gradientdescent/)
+    * [mlcb.com/2017/01/16/gradientdescent2/](https://machinelearningcoban.com/2017/01/16/gradientdescent2/)
+2. k means clustering
+    * [mlcb.com/2017/01/01/kmeans/](https://machinelearningcoban.com/2017/01/01/kmeans/)
+    * [mlcb.com/2017/01/04/kmeans2/](https://machinelearningcoban.com/2017/01/04/kmeans2/)
+3. k nearest neighbors
+    * [mlcb.com/2017/01/08/knn/](https://machinelearningcoban.com/2017/01/08/knn/)
+4. perceptron learning algorithm
+    * [mlcb.com/2017/01/21/perceptron/](https://machinelearningcoban.com/2017/01/21/perceptron/)
+5. logistic regression
+    * [mlcb.com/2017/01/27/logisticregression/](https://machinelearningcoban.com/2017/01/27/logisticregression/)
+6. softmax regression
+    * [mlcb.com/2017/02/17/softmax/](https://machinelearningcoban.com/2017/02/17/softmax/)
+7. multi layer perceptron
+    * [mlcb.com/2017/02/24/mlp/](https://machinelearningcoban.com/2017/02/24/mlp/)
+8. overfitting
+    * [mlcb.com/2017/03/04/overfitting/](https://machinelearningcoban.com/2017/03/04/overfitting/)
+9. convexity
+    * [mlcb.com/2017/03/12/convexity/](https://machinelearningcoban.com/2017/03/12/convexity/)
 
 ## part b
 0. svm
