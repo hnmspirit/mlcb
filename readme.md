@@ -31,23 +31,23 @@
 | c6 | RNN                                                  |             |
 | c7 | LSTM                                                 |             |
 
-[a0]: https://machinelearningcoban.com/2016/12/28/linearregression/
-[a1]: https://machinelearningcoban.com/2017/01/12/gradientdescent/
-[a2]: https://machinelearningcoban.com/2017/01/01/kmeans/
-[a3]: https://machinelearningcoban.com/2017/01/08/knn/
-[a4]: https://machinelearningcoban.com/2017/01/21/perceptron/
-[a5]: https://machinelearningcoban.com/2017/01/27/logisticregression/
-[a6]: https://machinelearningcoban.com/2017/02/17/softmax/
-[a7]: https://machinelearningcoban.com/2017/02/24/mlp/
-[a8]: https://machinelearningcoban.com/2017/03/04/overfitting/
-[a9]: https://machinelearningcoban.com/2017/03/12/convexity/
-[b0]: https://machinelearningcoban.com/2017/04/09/smv/
-[b1]: https://machinelearningcoban.com/2017/05/17/contentbasedrecommendersys/
-[b2]: https://machinelearningcoban.com/2017/05/24/collaborativefiltering/
-[b3]: https://machinelearningcoban.com/2017/05/31/matrixfactorization/
-[b4]: https://machinelearningcoban.com/2017/06/07/svd/
-[b5]: https://machinelearningcoban.com/2017/06/15/pca/
-[b6]: https://machinelearningcoban.com/2017/06/30/lda/
-[b7]: https://machinelearningcoban.com/2017/07/09/prob/
-[b8]: https://machinelearningcoban.com/2017/07/17/mlemap/
-[b9]: https://machinelearningcoban.com/2017/08/08/nbc/
+[a0b]: https://machinelearningcoban.com/2016/12/28/linearregression/
+[a1b]: https://machinelearningcoban.com/2017/01/12/gradientdescent/
+[a2b]: https://machinelearningcoban.com/2017/01/01/kmeans/
+[a3b]: https://machinelearningcoban.com/2017/01/08/knn/
+[a4b]: https://machinelearningcoban.com/2017/01/21/perceptron/
+[a5b]: https://machinelearningcoban.com/2017/01/27/logisticregression/
+[a6b]: https://machinelearningcoban.com/2017/02/17/softmax/
+[a7b]: https://machinelearningcoban.com/2017/02/24/mlp/
+[a8b]: https://machinelearningcoban.com/2017/03/04/overfitting/
+[a9b]: https://machinelearningcoban.com/2017/03/12/convexity/
+[b0b]: https://machinelearningcoban.com/2017/04/09/smv/
+[b1b]: https://machinelearningcoban.com/2017/05/17/contentbasedrecommendersys/
+[b2b]: https://machinelearningcoban.com/2017/05/24/collaborativefiltering/
+[b3b]: https://machinelearningcoban.com/2017/05/31/matrixfactorization/
+[b4b]: https://machinelearningcoban.com/2017/06/07/svd/
+[b5b]: https://machinelearningcoban.com/2017/06/15/pca/
+[b6b]: https://machinelearningcoban.com/2017/06/30/lda/
+[b7b]: https://machinelearningcoban.com/2017/07/09/prob/
+[b8b]: https://machinelearningcoban.com/2017/07/17/mlemap/
+[b9b]: https://machinelearningcoban.com/2017/08/08/nbc/
