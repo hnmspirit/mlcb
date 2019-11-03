@@ -31,6 +31,7 @@
 | c6 | RNN                                                  |             |
 | c7 | LSTM                                                 |             |
 
+
 [a0b]: https://machinelearningcoban.com/2016/12/28/linearregression/
 [a1b]: https://machinelearningcoban.com/2017/01/12/gradientdescent/
 [a2b]: https://machinelearningcoban.com/2017/01/01/kmeans/
