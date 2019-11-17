@@ -101,7 +101,7 @@ def init_anim():
     l3.set_data([], [])
     p3.set_data([], [])
 
-def anim(i):
+def update_anim(i):
     ax.set_title('epoch: %d/%d' % (i+1, frames))
 
     t1 = min(i, len(x1)-1)
@@ -117,5 +117,5 @@ def anim(i):
     p3.set_data(x3[t3] , y3[t3])
 
 frames = max(len(x1), len(x2), len(x3))
-anim = fanim(fig, anim, frames, init_anim, interval=100, repeat_delay=1000)
+anim = fanim(fig, update_anim, frames, init_anim, interval=100, repeat_delay=1000)
 plt.show()

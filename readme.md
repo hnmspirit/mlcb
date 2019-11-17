@@ -2,26 +2,26 @@
 
 | id | name                                                 | blog        |
 |----|------------------------------------------------------|-------------|
-| a0 | linear regression                                    | [blog][a0b] |
-| a1 | optimization                                         | [blog][a1b] |
-| a2 | k means clustering                                   | [blog][a2b] |
-| a3 | k nearest neighbors                                  | [blog][a3b] |
-| a4 | perceptron learning algorithm                        | [blog][a4b] |
-| a5 | logistic regression                                  | [blog][a5b] |
-| a6 | softmax regression                                   | [blog][a6b] |
-| a7 | multi layer perceptron                               | [blog][a7b] |
-| a8 | overfitting                                          | [blog][a8b] |
-| a9 | convexity                                            | [blog][a9b] |
-| b0 | support vector machine                               | [blog][b0b] |
-| b1 | content-based recommender system                     | [blog][b1b] |
-| b2 | neighborhood-based collaborative filtering           | [blog][b2b] |
-| b3 | matrix factorization collaborative filtering         | [blog][b3b] |
-| b4 | singular value decomposition                         | [blog][b4b] |
-| b5 | principal component analysis                         | [blog][b5b] |
-| b6 | linear discriminant analysis                         | [blog][b6b] |
-| b7 | probability                                          | [blog][b7b] |
-| b8 | maximum a posteriori - maximum likelihood estimation | [blog][b8b] |
-| b9 | naive bayes classifier                               | [blog][b9b] |
+| a0 | linear regression                                    | [mlcb][a0b] |
+| a1 | optimization                                         | [mlcb][a1b] |
+| a2 | k means clustering                                   | [mlcb][a2b] |
+| a3 | k nearest neighbors                                  | [mlcb][a3b] |
+| a4 | perceptron learning algorithm                        | [mlcb][a4b] |
+| a5 | logistic regression                                  | [mlcb][a5b] |
+| a6 | softmax regression                                   | [mlcb][a6b] |
+| a7 | multi layer perceptron                               | [mlcb][a7b] |
+| a8 | overfitting                                          | [mlcb][a8b] |
+| a9 | convexity                                            | [mlcb][a9b] |
+| b0 | support vector machine                               | [mlcb][b0b] |
+| b1 | content-based recommender system                     | [mlcb][b1b] |
+| b2 | neighborhood-based collaborative filtering           | [mlcb][b2b] |
+| b3 | matrix factorization collaborative filtering         | [mlcb][b3b] |
+| b4 | singular value decomposition                         | [mlcb][b4b] |
+| b5 | principal component analysis                         | [mlcb][b5b] |
+| b6 | linear discriminant analysis                         | [mlcb][b6b] |
+| b7 | probability                                          | [mlcb][b7b] |
+| b8 | maximum a posteriori - maximum likelihood estimation | [mlcb][b8b] |
+| b9 | naive bayes classifier                               | [mlcb][b9b] |
 | c0 | decision tree                                        |             |
 | c1 | convolutional neural network                         |             |
 | c2 | self-driving car                                     |             |
