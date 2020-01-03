@@ -2,3 +2,7 @@
 *.pyc
 test.py
 *.xlsx
+a13_softmax/mnist/t10k-images-idx3-ubyte
+a13_softmax/mnist/t10k-labels-idx1-ubyte
+a13_softmax/mnist/train-images-idx3-ubyte
+a13_softmax/mnist/train-labels-idx1-ubyte
