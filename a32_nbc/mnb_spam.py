@@ -26,6 +26,7 @@ def read_data(X_fn, y_fn):
 X_trn, y_trn = read_data(X_trn_fn, y_trn_fn)
 X_tst, y_tst = read_data(X_tst_fn, y_tst_fn)
 print('train size: ', y_trn.shape)
+print('test size: ', y_tst.shape)
 
 model = MNB()
 model.fit(X_trn, y_trn)

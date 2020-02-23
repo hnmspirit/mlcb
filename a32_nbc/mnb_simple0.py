@@ -25,19 +25,22 @@ class Word2Vec(object):
         return vecs
 
 
-d1 = 'hanoi pho chaolong hanoi'
-d2 = 'hanoi buncha pho omai'
-d3 = 'pho banhgio omai'
-d4 = 'saigon hutiu banhbo pho'
-d5 = 'hanoi hanoi buncha hutiu'
-d6 = 'pho hutiu banhbo'
+d0 = 'hanoi pho chaolong hanoi'
+d1 = 'hanoi buncha pho omai'
+d2 = 'pho banhgio omai'
+d3 = 'saigon hutiu banhbo pho'
+d4 = 'hanoi hanoi buncha hutiu'
+d5 = 'pho hutiu banhbo'
 
-sentences = [d1,d2,d3,d4,d5,d6]
+labels = ['Bac', 'Nam']
+y_all = [0,0,0,1,0,1]
+
+sentences = [d0,d1,d2,d3,d4,d5]
 W2V = Word2Vec(sentences)
 X = W2V.transform(sentences)
 
 X_trn = np.array(X[:4])
-y_trn = np.array([0,0,0,1])
+y_trn = y_all[:4]
 
 
 # naive bayes
@@ -65,8 +68,9 @@ NB = NaiveBayes(X_trn, y_trn)
 # test
 x_tst = X[4]
 pred = NB.predict(x_tst)
-print(pred)
+print(labels[pred])
 
 x_tst = X[5]
 probs = NB.predict_proba(x_tst)
-print(probs)
+pred = probs.argmax()
+print(labels[pred])

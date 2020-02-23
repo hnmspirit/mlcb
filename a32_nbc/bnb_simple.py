@@ -24,19 +24,22 @@ class Word2Vec(object):
         return vecs
 
 
-d1 = 'hanoi pho chaolong hanoi'
-d2 = 'hanoi buncha pho omai'
-d3 = 'pho banhgio omai'
-d4 = 'saigon hutiu banhbo pho'
-d5 = 'hanoi hanoi buncha hutiu'
-d6 = 'pho hutiu banhbo'
+d0 = 'hanoi pho chaolong hanoi'
+d1 = 'hanoi buncha pho omai'
+d2 = 'pho banhgio omai'
+d3 = 'saigon hutiu banhbo pho'
+d4 = 'hanoi hanoi buncha hutiu'
+d5 = 'pho hutiu banhbo'
 
-sentences = [d1,d2,d3,d4,d5,d6]
+labels = ['Bac', 'Nam']
+y_all = [labels[i] for i in [0,0,0,1,0,1]]
+
+sentences = [d0,d1,d2,d3,d4,d5]
 W2V = Word2Vec(sentences)
 X = W2V.transform(sentences)
 
 X_trn = np.array(X[:4])
-y_trn = np.array(['B','B','B','N'])
+y_trn = y_all[:4]
 
 NB = BernoulliNB()
 NB.fit(X_trn, y_trn)
@@ -44,8 +47,9 @@ NB.fit(X_trn, y_trn)
 # test
 X_tst = [X[4]]
 pred = NB.predict(X_tst)
-print(pred)
+print(pred[0])
 
 X_tst = [X[5]]
 probs = NB.predict_proba(X_tst)
-print(probs)
+pred = probs.argmax(axis=1)
+print(labels[pred[0]])
