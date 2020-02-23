@@ -75,12 +75,9 @@ pt3, = ax.plot([], [], 'g.', alpha=0.3)
 
 txt = ax.set_title('')
 
-
-ax.set_xticks([])
-ax.set_yticks([])
-ax.set_ylim([-2, 7])
+ax.set_ylim([-3, 9])
 ax.set_xlim([-3, 9])
-ax.grid(alpha=0.1)
+ax.grid(alpha=.3)
 
 
 def init_anim():
@@ -93,7 +90,6 @@ def init_anim():
     pt3.set_data([], [])
 
     txt.set_text('')
-
 
 def update_anim(i):
     cs = list_centers1[i]

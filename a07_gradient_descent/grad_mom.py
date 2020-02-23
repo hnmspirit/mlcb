@@ -73,7 +73,7 @@ p2, = ax.plot([], [], 'g.')
 l3, = ax.plot([], [], 'b', label='nesterov')
 p3, = ax.plot([], [], 'b.')
 
-ax.grid(alpha=0.2)
+ax.grid(alpha=.3)
 ax.legend()
 
 def init_anim():
@@ -102,5 +102,5 @@ def anim(i):
     p3.set_data(x3[t3], y3[t3])
 
 frames = max(len(x1), len(x2), len(x3))
-anim = fanim(fig, anim, frames, init_anim, interval=100, repeat_delay=1000)
+anim = fanim(fig, anim, frames, init_anim, interval=150, repeat_delay=1000)
 plt.show()

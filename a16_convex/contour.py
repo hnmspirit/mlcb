@@ -90,5 +90,5 @@ for j, fig in enumerate([fig1, fig2, fig3, fig4, fig5, fig6]):
     plt.xticks([])
     plt.yticks([])
 
-
+# plt.savefig('contour.jpg', dpi=100)
 plt.show()

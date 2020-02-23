@@ -31,4 +31,5 @@ for j, p in enumerate(ps):
     plt.axis('off')
 
 plt.suptitle(r'$(|x|^p + |y|^p)^{1/p} \leq 1$', ha='center', y=0.94)
+# fig.savefig('norm.jpg', dpi=100)
 plt.show()
