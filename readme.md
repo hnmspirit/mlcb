@@ -11,7 +11,8 @@
 14. multi-layer-perceptron and backpropagation
 15. overfitting
 16. convexity
-19. support vector machine [soft margin]
+20. support vector machine: soft margin
+21. support vector machine: kernel
 
 30. probability
 32. naive bayes classifier
